@@ -1,5 +1,60 @@
+body{
+    background-color: aquamarine;
+}
+
 .container{
     height: 100vh;
     width: 100vw;
-    background-color: aquamarine;
+    justify-content: center;
+    align-items: center;
+    
 }
+
+.box{
+    box-shadow: 7px 7px 10px;
+    border-radius:5px ;
+    margin-top: 10vh;
+    margin-left:40vw ;
+    width: 250px;
+    padding: 25px;
+    background-color:white;
+    border: 1px solid black;
+}
+
+.heading-list{
+    display: flex;
+}
+
+.heading{
+    margin: auto;
+}
+
+.logo{
+    justify-content: center;
+    margin: auto;
+    height: 45px;
+    width: 45px;
+    background-image: url("images.png");
+    background-size: cover;
+    background-position: center;
+}
+
+.list-box{
+    margin-top: 20px;
+}
+
+.task{
+    background-color: lightgrey;
+    width: 190px;
+}
+
+
+.incomplete-task{
+    color: black;
+}
+
+.completed-task{
+    text-decoration: line-through;
+    color: grey;
+}
+
