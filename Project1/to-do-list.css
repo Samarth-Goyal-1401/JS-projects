@@ -1,5 +1,5 @@
 body{
-    background-color: aquamarine;
+    background-color: blueviolet;
 }
 
 .container{
@@ -46,8 +46,14 @@ body{
 .task{
     background-color: lightgrey;
     width: 190px;
+    border-radius: 5px;
 }
 
+.add{
+    color: white;
+    -webkit-text-stroke: 0.3px black;
+    background-color: greenyellow;
+}
 
 .incomplete-task{
     color: black;
