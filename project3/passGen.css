@@ -1,0 +1,127 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+.container{
+    height: 100vh;
+    width: 100vw;
+    background-color:lightgrey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.box{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 1px solid black;
+    height: 450px;
+    width: 500px;
+}
+
+
+.heading{
+    color: black;
+    text-decoration: underline;
+    font-size: medium;
+    padding: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+
+.output{
+    background-color: lightgray;
+    outline: none;
+    border: none;
+    height: 30px;
+    min-width: 350px;
+    max-width: 350px;
+    display: flex;
+    padding: 10px 5px 5px 10px;
+}
+.pass{
+    padding-left: 40px;
+}
+
+#copy{
+    outline: none;
+    border-radius: 5px;
+    border: none;
+    position: absolute;
+    height: 30px;
+    width: 30px;
+    background-position: center;
+    background-size: cover;
+    background-image: url(copy.png);
+}
+#copy:hover{
+    cursor: pointer;
+}
+
+
+.slider{
+    height: 25px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    margin-top: 5px;
+    margin-bottom: 0px;
+}
+#slider{
+    height: 5px;
+    width: 350px;
+}
+
+
+input:hover{
+    cursor: pointer;
+}
+
+
+table{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-spacing: 15px;
+    height: 250px;
+    width: 350px;
+    position: relative;
+    right:20px;
+}
+tr{
+    height: 5px;
+    font-size: 19px;
+}
+.column2{
+    position: relative;
+    left: 50px;
+}
+#length{
+    position: relative;
+    left: 50px;
+}
+
+
+.submit{
+    color: white;
+    background-color: blue;
+    font-weight: 800;
+    height: 30px;
+    width: 325px;
+    margin-bottom :20px;
+}
+.submit:hover{
+    background-color: black;
+    cursor: pointer;
+}
+

@@ -1,0 +1,96 @@
+*{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0px;
+    padding: 0px;
+    transition: 500ms;
+}
+
+body{
+    background-color: lightcoral;
+}
+
+#add{   
+    padding: 10px 5px 0px 25px;
+    margin: auto;
+    display: flex;
+    font-size: small;
+    font-weight:600;
+    letter-spacing: 1px;
+    border: 2px black solid;
+    height: 30px;
+    width: 100px;
+    background-color: darkgreen;
+    color: white;
+    position:fixed;
+    right:15px;
+    top: 15px;
+    border-radius: 5px;
+}
+
+#add:hover{
+    box-shadow: black 3px 3px 5px;
+    cursor: pointer;
+    background-color: greenyellow;
+}
+
+.container{
+    width: 100vw;
+    height: 100vh;
+    display: flex ;
+    gap : 20px;
+    flex-wrap: wrap ;
+    align-items: center;
+    justify-content: center;
+}
+
+.toolbar{
+    border-bottom: 2px solid white;
+    height:45px;    
+    width: 200px;
+    display: flex;
+    justify-content: flex-end;
+    font-size: small;
+    gap: 10px;
+    padding: 10px;  
+    border-radius: 5px;
+    background-color: black;
+}
+
+.toolbar:hover{
+    box-shadow: 5px 5px 10px black;
+}
+
+.option:hover{
+    cursor: pointer;
+    color: greenyellow;
+}   
+
+.note-box{
+    border:solid 2px white ;
+    border-radius: 10px;
+    min-height: 200px;
+    min-width: 197px;
+    color: white;
+    background-color: darkslateblue;
+    align-items: center;
+    margin: auto;
+    justify-content: center;
+    overflow: hidden;
+}
+
+textarea{
+    height: 200px;
+    width: 204px;
+    background-color: transparent;
+    margin-left: 8px;
+    color: white;
+    resize: none;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+}
+
+.note-box:hover{
+    box-shadow: 5px 5px 10px black;
+}
+

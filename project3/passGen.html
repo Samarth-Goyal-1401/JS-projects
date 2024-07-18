@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password Generator</title>
+    <link rel="stylesheet" type="text/css" href="passGen.css">
+</head>
+<body>
+    <div class="container">
+        <div class="box">
+            <div class="heading"><h1>PASSWORD GENERATOR</h1></div>
+            <div class="output">
+                <p class="pass"></p>
+                <button id="copy"></button>
+            </div>
+            <div class="slider"><input type="range" min="8" max="30" value="8" id="slider"></div>
+            <div class="grid">
+                <table>
+                    <tr>
+                        <td><b>Password length : </b></td>
+                        <td id="length"><p>8</p></td>
+                    </tr>
+                    <tr>
+                        <td>Includes Lowercase Letters</td>
+                        <td class="column2"><input type="checkbox" id="low"></td>
+                    </tr>
+                    <tr>
+                        <td>Includes Uppercase Letters</td>
+                        <td class="column2"><input type="checkbox" id="upp"></td>
+                    </tr>
+                    
+                    <tr>
+                        <td>Includes Numbers (0-9)</td>
+                        <td class="column2"><input type="checkbox" id="num"></td>
+                    </tr>
+                    <tr>
+                        <td>Includes Symbols</td>
+                        <td class="column2"><input type="checkbox" id="sym"></td>
+                    </tr>
+                </table>
+            </div>
+            <button class="submit">Generate Password</button>
+        </div>
+    </div>
+</body>
+<script src="passGen.js"></script>
+</html>
